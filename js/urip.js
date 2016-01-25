@@ -180,7 +180,7 @@ $(document).ready(function(){
 	====================================*/
 	$('.the-subscribe-form').ajaxChimp({
 		callback: mailchimpCallback,
-	    url: '//185.us12.list-manage.com/subscribe/post?u=cfcebd1860a4dda4dcb0bca4d&amp;id=e2f836cf3d'
+	    url: 'http://185.us12.list-manage.com/subscribe/post?u=cfcebd1860a4dda4dcb0bca4d&amp;id=e2f836cf3d'
 	    // Replace the URL above with your mailchimp URL (put your URL inside '').
 	});
 
